@@ -16,12 +16,12 @@
 - Instale as dependências: pip install -r requirements.txt
 - Inicie o servidor: python main.py
 
-A API possui as seguintes rotas:
+### API possui as seguintes rotas:
 
-GET /items: Retorna uma lista de todos os itens cadastrados
-POST /items: Cria um novo item com as informações enviadas no corpo da requisição
-GET /items/<id>: Retorna um item específico pelo ID
-PUT /items/<id>: Atualiza um item específico pelo ID com as informações enviadas no corpo da requisição
-DELETE /items/<id>: Exclui um item específico pelo ID
+- GET /items: Retorna uma lista de todos os itens cadastrados
+- POST /items: Cria um novo item com as informações enviadas no corpo da requisição
+- GET /items/<id>: Retorna um item específico pelo ID
+- PUT /items/<id>: Atualiza um item específico pelo ID com as informações enviadas no corpo da requisição
+- DELETE /items/<id>: Exclui um item específico pelo ID
 
 **Os itens são simplesmente objetos JSON com um ID e um nome, mas podem ser expandidos conforme necessário.**
